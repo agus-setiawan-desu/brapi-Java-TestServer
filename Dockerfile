@@ -7,7 +7,7 @@ FROM openjdk:8-jdk-alpine
 
 EXPOSE 8787
 
-RUN mkdir /home/rocket-chat-1/brapi
+# RUN mkdir /home/rocket-chat-1/brapi
 
 COPY target/brapi-Java-TestServer-0.1.0.jar src/main/resources/ /home/rocket-chat-1/brapi/
 
