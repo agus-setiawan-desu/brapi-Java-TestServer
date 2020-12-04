@@ -41,3 +41,6 @@ When running in Docker, you can edit or add dummy data by adding the volume `-v 
 Below is a UML diagram of the whole database schema:
 
 ![dbSchema](https://raw.githubusercontent.com/plantbreeding/brapi-Java-TestServer/brapi-server-v2/brapi_test_server_data_model_v2.0.svg)
+
+
+test
