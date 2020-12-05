@@ -1,13 +1,13 @@
-version: '3.1'
+version: '3.8'
 services:
   dbpostgresql:
-    image: postgres:12.4
+    image: postgres:12.5
     ports:
-      - "5441:5432"
+      - "5449:5432"
     environment:
-      - POSTGRES_PASSWORD=agus123
-      - POSTGRES_USER=agus
-      - POSTGRES_DB=dev_db
+      - POSTGRES_PASSWORD=brapi123!#
+      - POSTGRES_USER=brapi
+      - POSTGRES_DB=brapi_db
     # The `volumes` tag allows us to share a folder with our container.
     # Its syntax is as follows: [folder path on our machine]:[folder path to retrieve in the container]
     volumes:
